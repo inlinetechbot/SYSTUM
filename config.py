@@ -31,7 +31,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID",))
 
 # Get this value from @CrewMusic_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6258877205))
+OWNER_ID = int(getenv("OWNER_ID", 5101317729))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -87,7 +87,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/tsfco0.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/nqgm6c.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/tsfco0.jpg"
